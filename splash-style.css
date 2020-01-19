@@ -1,0 +1,111 @@
+body, html {
+  overflow: hidden;
+}
+
+body {
+  background-color: #FFFFFF;
+  height: 100vh;
+  font-family: 'Heebo', sans-serif;
+  color: #60C96E;
+}
+
+.page-container {
+  display: flex;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.instruct {
+  font-weight: 300;
+}
+
+.quick-links {
+  font-weight: 300;
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+}
+
+.nav {
+  text-decoration: none;
+  margin-left: 70%;
+}
+
+.logo-div {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  height: 100%;
+}
+
+a {
+  color: #60C96E;
+}
+
+a:hover {
+  color: #D8D8D8;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.welcome-message, .doc-pin {
+  margin: auto;
+  text-align: center;
+  overflow-x: hidden;
+  -webkit-animation: left-to-right 5s linear forwards;
+  animation: left-to-right 5s linear forwards;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #D8D8D8;
+  outline: none;
+  caret-color: #BABABA;
+  line-height: 10px;
+}
+
+::placeholder {
+  color: #BABABA;
+  font-family: 'Heebo';
+  font-weight: 300;
+  font-size: 25px;
+}
+
+textarea {
+  font-family: 'Heebo', sans-serif;
+  color: #D8D8D8;
+}
+
+@-webkit-keyframes left-to-right{
+    from{left:-100%}
+    to{left:0}
+}
+@-webkit-keyframes right-to-left{
+    from{left:0}
+    to{left:100%}
+}
+
+@keyframes left-to-right{
+    from{left:-100%}
+    to{left:0}
+}
+@keyframes right-to-left{
+    from{left:0}
+    to{left:100%}
+}
+
+.next, .enter {
+  font-size: 30px;
+}

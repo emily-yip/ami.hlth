@@ -1,0 +1,159 @@
+body {
+  background-color: #FFFFFF;
+  height: 100vh;
+  font-family: 'Heebo', sans-serif;
+  color: #60C96E;
+}
+
+.page-container {
+  display: flex;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.instruct {
+  font-weight: 300;
+}
+
+.quick-links {
+  font-weight: 300;
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+}
+
+.logo{
+  float: left;
+}
+
+.nav {
+  text-decoration: none;
+  margin-left: 70%;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+a {
+  color: #60C96E;
+}
+
+
+.colorchange:hover{
+  color: #D8D8D8;
+  text-decoration: none;
+  transition: 0.2s;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.vspace{
+  margin-top: 200px;
+}
+
+.welcome-message {
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #D8D8D8;
+  outline: none;
+  caret-color: #BABABA;
+}
+
+::placeholder {
+  color: #BABABA;
+  font-family: 'Heebo';
+  font-weight: 300;
+  font-size: 25px;
+}
+
+h5{
+  font-size: 55px;
+  color: white;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  height: 25%;
+  margin: 0 -5px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #60C96E;
+  
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.large{
+  transition: width 2s, height 2s;
+  transition-timing-function: ease-out ;
+}
+.card:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+.cardcolorchange:hover{
+  transform: 0.5s;
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+.cardimg{
+  opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+

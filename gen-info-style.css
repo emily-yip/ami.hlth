@@ -1,0 +1,142 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  height: 100%;
+}
+
+.quick-links {
+  font-weight: 300;
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+}
+
+.nav {
+  text-decoration: none;
+  margin-left: 70%;
+}
+
+.logo-div {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  height: 100%;
+}
+
+a {
+  color: #60C96E;
+}
+
+a:hover {
+  color: #D8D8D8;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 85%;
+  height: 87%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.picture {
+  float: right;
+  width: 35%;
+  margin-top: -50px;
+}
+
+.photo-id {
+  width: 100%;
+  float: right;
+}
+
+.info {
+  font-weight: 500;
+  width: 65%;
+  height: auto;
+  float: left;
+}
+
+table {
+  padding: 5px;
+}
+
+td:first-child {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+td:nth-child(2) {
+  font-weight: 300;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.blank td {
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.sidebar {
+  width: 15%;
+  height: 87%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.back {
+  position: fixed;
+  bottom: 0;
+  font-size: 60px;
+  margin-left: -105px;
+}
+
+.sidebar-title {
+  font-weight: 500;
+}
+
+.sidebar-links {
+  list-style-type: none;
+  margin-top: -15px;
+  font-weight: 300;
+}
+
+.sidebar-links li {
+  padding: 5px;
+}
+
+.divider {
+  height: 2px;
+  width: 20px
+}
+
+hr {
+  width: 80%;
+  border-color: black;
+}
+
+.add-cat {
+  background-color: transparent;
+  border: none;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
